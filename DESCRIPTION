@@ -1,0 +1,10 @@
+Package: electionpanel
+Title: Pads Electoral Time-series
+Version: 0.0.0.9000
+Authors@R: person("Darin", "Self", email = "ds2237@cornell.edu", role = c("aut", "cre"))
+Description: Pads electoral time-series with years between elections and copies data until subsequent election.
+Depends: R (>= 3.2.1)
+Imports: dplyr
+License: What license is it under?
+LazyData: true
+URL: https://github.com/dsself/electionpanel
