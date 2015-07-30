@@ -21,6 +21,7 @@ pad_election <- function(data, time, group, start, end) {
   d2$year <- d2$x
   d2 <- d2[names(d2) %ni% c("lead", "x")]
 
+  d2$election <- as.numeric(d2$election)
   return(d2)
 }
 
