@@ -6,6 +6,9 @@
 #' @param start Numeric value for first year of time-series
 #' @param end Numeric value for last year of time-series
 
+`%ni%` <- Negate(`%in%`)
+
+
 pad_election <- function(data, time, group, start, end) {
   df <- dplyr::mutate_(data, election = time) %>%
     dplyr::filter(election > 1899) %>%
